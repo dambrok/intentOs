@@ -244,12 +244,11 @@ Potential adapters include developer tools, file management, personal
 productivity, education, media, and business applications.
 
 ## Submission Honesty
-
-The current prototype must not claim complete privacy, fully offline inference,
+Since it is just a prototype build for hackathon it doesn't use the local NPU for inference. 
+The current prototype does not claim complete privacy, fully offline inference,
 Snapdragon NPU acceleration, zero latency, or autonomous computer control.
+But it can be transformed easily to use the NPU and offline models because this mvp is build to test the core logic and functioning of complete pipeline not the deployment. 
 Those are deployment goals. The implemented MVP is the local structured runtime,
 schema manifest, controlled tool surface, task/preferences/context memory, plan
 validation, and execution verification records.
 
-GUI control and a complete VyapaarSaathi adapter are intentionally outside the
-current runtime MVP.
