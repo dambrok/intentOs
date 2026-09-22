@@ -143,7 +143,6 @@ The runtime architecture is designed for Snapdragon X-series PCs and NPU acceler
 
 ## MVP Status & Submission Honesty
 
-The current MVP prototype uses Google Realtime and LiveKit cloud inference for voice interaction.
 
 Snapdragon NPU acceleration is an architectural target for production deployment.
 
